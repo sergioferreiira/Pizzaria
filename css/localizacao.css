@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+}
+
+.logo {
+    text-align: center;
+}
+
+
+.titleInfo {
+    color: #edcd9e;
+    font-family: 'Ephesis', cursive;
+    text-align: center;
+    font-size: 24px;
+}
+
+.textInfo{
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .mainInformation {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .location {
+        margin: 5em;
+    }
+
+}
