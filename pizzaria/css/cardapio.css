@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/background-bebida.png);
+
+}
+
+.cardapios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #edcd9e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: red;
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a lista de bebidas */
+.cardapio {
+    padding: 10em;
+    background-color: #fffffff6;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 2em 0.5em 2em 0.5em;
+}
+
+.tipo-bebida {
+    text-align: center;
+    margin: 1em;
+}
+
+.bebida {
+    margin-bottom: 20px;
+}
+
+.bebida .nome {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.bebida .descricao {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.bebida .preco {
+    text-align: right;
+    font-size: 16px;
+    color: #000000;
+
+}
+
+.com-cor{
+    background-color: #edcd9eef;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 480px) {
+    .cardapio {
+        padding: 5em;
+    }
+
+    .bebida .nome {
+        font-size: 18px;
+    }
+
+    .bebida .descricao {
+        font-size: 14px;
+    }
+
+    .bebida .preco {
+        font-size: 16px;
+    }
+}

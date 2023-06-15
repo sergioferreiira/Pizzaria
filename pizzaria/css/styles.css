@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body {
+    background-image: url(img/backgroundVideo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.links {
+    list-style: none;
+    padding: 0.7em 0em;
+    text-transform:inherit;
+    font-size: 18px;
+}
+
+.listMenuLinks {
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px 4px black;
+
+}
+
+.titulo,
+.frase {
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    padding: 0em 1em;
+}
+
+.cLinks {
+    text-decoration: none;
+    padding: 0.5em;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+
+.bg-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    background-size: cover;
+}
+
+.itensAbout {
+    position: absolute;
+}
